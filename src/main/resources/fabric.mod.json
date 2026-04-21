@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "remove-resource-loading-bar",
+	"version": "${version}",
+	"name": "Remove Resource Loading Bar",
+	"description": "Add-on for Remove Reloading Screen (rrls) that removes the loading bar",
+	"authors": [
+		"downloadableduck"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/remove-resource-loading-bar/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.jeff.rrlb.RemoveResourceLoadingBar"
+		],
+		"client": [
+			"com.jeff.rrlb.client.RemoveResourceLoadingBarClient"
+		]
+	},
+	"mixins": [
+		"remove-resource-loading-bar.mixins.json",
+		{
+			"config": "remove-resource-loading-bar.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
