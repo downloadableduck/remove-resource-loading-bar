@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.jeff.rrlb.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "RemoveResourceLoadingBarMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}

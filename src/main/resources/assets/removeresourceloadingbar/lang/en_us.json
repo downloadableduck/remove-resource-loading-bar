@@ -1,0 +1,13 @@
+{
+  "itemGroup.removeresourceloadingbar": "Example Mod Tab",
+  "block.removeresourceloadingbar.example_block": "Example Block",
+  "item.removeresourceloadingbar.example_item": "Example Item",
+
+  "removeresourceloadingbar.configuration.title": "Remove Resource Loading Bar Configs",
+  "removeresourceloadingbar.configuration.section.removeresourceloadingbar.common.toml": "Remove Resource Loading Bar Configs",
+  "removeresourceloadingbar.configuration.section.removeresourceloadingbar.common.toml.title": "Remove Resource Loading Bar Configs",
+  "removeresourceloadingbar.configuration.items": "Item List",
+  "removeresourceloadingbar.configuration.logDirtBlock": "Log Dirt Block",
+  "removeresourceloadingbar.configuration.magicNumberIntroduction": "Magic Number Text",
+  "removeresourceloadingbar.configuration.magicNumber": "Magic Number"
+}
