@@ -7,8 +7,8 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(LoadingOverlay.class)
-public class RemoveResourceLoadingBarMixin {
-    @Inject(at = @At("HEAD"), method = "drawProgressBar", cancellable = true)
+public class RemoveTheActualBar {
+    @Inject(at = @At("HEAD"), method = "extractProgressBar", cancellable = true)
     private void init(CallbackInfo info) {
         info.cancel();
     }

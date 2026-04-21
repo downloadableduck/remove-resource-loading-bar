@@ -3,7 +3,7 @@
   "package": "com.jeff.rrlb.mixin",
   "compatibilityLevel": "JAVA_25",
   "client": [
-    "RemoveResourceLoadingBarMixin"
+    "RemoveTheActualBar"
   ],
   "injectors": {
     "defaultRequire": 1
