@@ -1,9 +1,7 @@
 package com.jeff.rrlb.client;
 
 import net.fabricmc.api.ClientModInitializer;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.loader.api.FabricLoader;
-import net.minecraft.client.Minecraft;
 
 import static com.jeff.rrlb.RemoveResourceLoadingBar.LOGGER;
 
