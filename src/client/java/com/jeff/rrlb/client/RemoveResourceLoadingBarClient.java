@@ -8,7 +8,7 @@ import static com.jeff.rrlb.RemoveResourceLoadingBar.LOGGER;
 public class RemoveResourceLoadingBarClient implements ClientModInitializer {
 	@Override
 	public void onInitializeClient() {
-        boolean bl = FabricLoader.getInstance().isModLoaded("rrls");;
+        boolean bl = FabricLoader.getInstance().isModLoaded("rrls");
         LOGGER.info("Remove Reloading Screen active: " + bl);
         if (!bl) {
             LOGGER.warn("Remove Reloading Screen is not present!");

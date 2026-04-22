@@ -3,7 +3,7 @@
 	"package": "com.jeff.rrlb.client.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"client": [
-		"ExampleClientMixin"
+		"ActuallyRemoveTheThingy"
 	],
 	"injectors": {
 		"defaultRequire": 1
